@@ -20,12 +20,11 @@ function App() {
 			<Header />
 			<TextCardList data={introduction} />
 			<TextCardList data={care} />
-			{/* <List title={'Tetoválás áraink'} data={tattooPrices} /> */}
-			{/* <List title={'Piercing/ Microdermal áraink'} data={piercingPrices} /> */}
-
-			{/* <DescriptionCardList title={'Szolgaltatasok'} data={descriptions} /> */}
-			{/* <CardList title={'Tetovalasok'} data={tattooTypes} /> */}
-			{/* <CardList title={'Munkatarsaink'} data={tetovalok} /> */}
+			<List title={'Tetoválás áraink'} data={tattooPrices} />
+			<List title={'Piercing/ Microdermal áraink'} data={piercingPrices} />
+			<DescriptionCardList title={'Szolgaltatasok'} data={descriptions} />
+			<CardList title={'Tetovalasok'} data={tattooTypes} />
+			<CardList title={'Munkatarsaink'} data={tetovalok} />
 		</div>
 	);
 }

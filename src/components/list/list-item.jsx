@@ -6,10 +6,8 @@ const List = ({ prices }) => {
 			{prices.map((price, i) => {
 				return (
 					<div>
-						<p>
-							<h4>{price.nev}:</h4>
-							{price.ar}
-						</p>
+						<h4>{price.nev}:</h4>
+						<p>{price.ar}</p>
 					</div>
 				);
 			})}
